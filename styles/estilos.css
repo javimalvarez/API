@@ -3,6 +3,7 @@ html {
     margin: auto;
     min-height: 100%;
     position: relative;
+    background-color: #96cfbe;
 }
 
 body {
@@ -29,6 +30,9 @@ footer {
 .contenedor{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 
 table th, td {
